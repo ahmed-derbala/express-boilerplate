@@ -1,0 +1,10 @@
+#files
+prefs.js
+package-lock.json
+*.log
+
+
+
+#folders
+node_modules/
+uploads/

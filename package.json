@@ -1,0 +1,37 @@
+{
+  "name": "olympiagym-nodejs",
+  "version": "0.0.0",
+  "private": true,
+  "scripts": {
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/ahmed-derbala/olympiagym-nodejs"
+  },
+  "keywords": [
+    "olympiagym"
+  ],
+  "author": "Ahmed Derbala <ahmed.derbala@esprit.tn>",
+  "dependencies": {
+    "app-root-path": "^3.0.0",
+    "bcrypt": "^5.0.1",
+    "colors": "^1.4.0",
+    "cookie-parser": "~1.4.4",
+    "debug": "~2.6.9",
+    "ejs": "~2.6.1",
+    "express": "~4.16.1",
+    "express-useragent": "^1.0.15",
+    "express-validator": "^6.14.0",
+    "express-winston": "^4.2.0",
+    "http-errors": "~1.6.3",
+    "jsonwebtoken": "^8.5.1",
+    "mongoose": "^6.2.6",
+    "mongoose-paginate-v2": "^1.6.3",
+    "mongoose-unique-validator": "^3.0.0",
+    "morgan": "~1.9.1",
+    "nodemailer": "^6.7.3",
+    "winston": "^3.7.2",
+    "winston-mongodb": "^5.0.7"
+  }
+}
